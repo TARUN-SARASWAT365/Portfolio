@@ -15,7 +15,7 @@ body {
 .home {
   padding: 2rem;
   background: linear-gradient(135deg, #0f172a, #1e1b4b);
-  height: 700PX;
+  height: 770PX;
 }
 
 /* Grid Layout */
@@ -33,7 +33,7 @@ body {
 .hero-left {
   flex: 1;
   min-width: 300px;
-  max-width: 600px;
+  max-width: 670px;
   animation: fadeInLeft 1s ease;
 }
 
@@ -117,7 +117,7 @@ body {
 
 .social-icons a {
   color: var(--accent-light);
-  font-size: 1.3rem;
+  font-size: 2.3rem;
   transition: transform 0.3s;
 }
 
@@ -140,6 +140,7 @@ body {
   border-radius: 1rem;
   box-shadow: 0 0 20px rgba(147, 51, 234, 0.4);
   transition: transform 0.4s;
+  margin-top: 50px;
 }
 
 .hero-img:hover {
