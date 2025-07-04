@@ -1,0 +1,213 @@
+:root {
+  --bg: #0f172a;
+  --text: #ffffff;
+  --accent: #9333ea;
+  --accent-light: #c084fc;
+  --card-bg: #1e293b;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* Container */
+.home {
+  padding: 2rem;
+  background: linear-gradient(135deg, #0f172a, #1e1b4b);
+  height: 700PX;
+}
+
+/* Grid Layout */
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Left Side */
+.hero-left {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+  animation: fadeInLeft 1s ease;
+}
+
+.tagline {
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.hero-left h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.highlight {
+  color: var(--accent-light);
+}
+
+.typing-line {
+  font-family: monospace;
+  color: var(--accent-light);
+  margin-bottom: 0.5rem;
+}
+
+.subtext {
+  font-size: 1rem;
+  color: #cbd5e1;
+  margin-bottom: 1.5rem;
+}
+
+/* Skills */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.skills span {
+  background: var(--card-bg);
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  color: #f1f5f9;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  background: var(--accent);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: var(--accent-light);
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.social-icons a {
+  color: var(--accent-light);
+  font-size: 1.3rem;
+  transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+}
+
+/* Right Image Side */
+.hero-right {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  justify-content: center;
+  animation: fadeInRight 1s ease;
+}
+
+.hero-img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(147, 51, 234, 0.4);
+  transition: transform 0.4s;
+}
+
+.hero-img:hover {
+  transform: scale(1.03);
+}
+
+/* Animations */
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Responsive Layout */
+@media (max-width: 1024px) {
+  .home-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-img {
+    max-width: 320px;
+  }
+
+  .buttons, .social-icons {
+    justify-content: center;
+  }
+
+  .hero-left h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-left h1 {
+    font-size: 1.6rem;
+  }
+
+  .tagline {
+    font-size: 0.8rem;
+  }
+
+  .btn {
+    font-size: 0.85rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .skills span {
+    font-size: 0.75rem;
+  }
+
+  .social-icons a {
+    font-size: 1.1rem;
+  }
+}
