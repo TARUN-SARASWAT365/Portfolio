@@ -14,7 +14,7 @@ const About = () => {
 
       <div className="about-buttons">
         <a href="/TARUN SARASWAT.pdf" download className="btn solid-btn">📄 Download CV</a>
-        <a href="#porfolio" className="btn outline-btn">⧉ View Projects</a>
+        <a href="#portfolio"  className="btn outline-btn">⧉ View Projects</a>
       </div>
 
       <div className="stats-container">
@@ -27,23 +27,9 @@ const About = () => {
           </div>
         </div>
 
-        <div className="stat-box">
-          <div className="stat-icon">🎖</div>
-          <div className="stat-info">
-            <h3>3</h3>
-            <p>CERTIFICATES</p>
-            <small>Professional skills validated</small>
-          </div>
-        </div>
+        
 
-        <div className="stat-box">
-          <div className="stat-icon">🌐</div>
-          <div className="stat-info">
-            <h3>2</h3>
-            <p>YEARS OF EXPERIENCE</p>
-            <small>Continuous learning journey</small>
-          </div>
-        </div>
+      
       </div>
     </section>
   );
