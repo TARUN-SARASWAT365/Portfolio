@@ -66,14 +66,14 @@ const Contact = () => {
 
         <a
           className="contact-link"
-          href="https://github.com/AbhishekGanvir"
+           href="https://github.com/TARUN-SARASWAT365"
           target="_blank"
           rel="noopener noreferrer"
         >
           <i className="fab fa-github"></i>
           <div className="contact-info">
             <strong>GitHub</strong>
-            <span>@AbhishekGanvir</span>
+            <span>@Tarun Saraswat</span>
           </div>
         </a>
       </div>
