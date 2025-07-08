@@ -33,13 +33,7 @@ const projects = [
     liveLink: "https://chatappfrontend-beryl.vercel.app",
     detailsLink: "https://github.com/TARUN-SARASWAT365/chatappfrontend",
   },
-  {
-    title: "WATCHit",
-    description: "A video streaming app made for easy, personal entertainment and everything you love to binge.",
-    image: projectImg,
-    liveLink: "https://your-live-link.com",
-    detailsLink: "https://github.com/your-repo",
-  },
+  
 ];
 
 const Portfolio = () => {
