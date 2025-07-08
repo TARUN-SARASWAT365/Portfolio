@@ -13,8 +13,8 @@ const About = () => {
       </p>
 
       <div className="about-buttons">
-        <a href="/Abhishek_CV.pdf" download className="btn solid-btn">📄 Download CV</a>
-        <a href="#contact" className="btn outline-btn">⧉ View Projects</a>
+        <a href="/TARUN SARASWAT.pdf" download className="btn solid-btn">📄 Download CV</a>
+        <a href="#porfolio" className="btn outline-btn">⧉ View Projects</a>
       </div>
 
       <div className="stats-container">
