@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import "./Portfolio.css";
 import projectImg from "../assets/Screenshot (79).png";
+import projectImg1 from "../assets/Screenshot (90).png";
 
 const techStack = [
   { name: "HTML", icon: "fa-html5", color: "#e34c26" },
@@ -29,7 +30,7 @@ const projects = [
   {
     title: "Chat App",
     description: "A chat app made for easy, personal entertainment and everything you love to binge.",
-    image: projectImg,
+    image: projectImg1,
     liveLink: "https://chatappfrontend-beryl.vercel.app",
     detailsLink: "https://github.com/TARUN-SARASWAT365/chatappfrontend",
   },
