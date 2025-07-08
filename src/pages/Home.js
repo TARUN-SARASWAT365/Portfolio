@@ -29,7 +29,7 @@ const Home = () => {
             <span>React</span>
             <span>JavaScript</span>
             <span>Node.js</span>
-            <span>PostgreSQL</span>
+           
           </div>
 
           <div className="buttons">
