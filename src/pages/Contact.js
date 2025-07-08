@@ -41,27 +41,27 @@ const Contact = () => {
 
         <a
           className="contact-link"
-          href="https://www.linkedin.com/in/abhishekganvir"
+          href="www.linkedin.com/in/sharma-tarun-80a833344"
           target="_blank"
           rel="noopener noreferrer"
         >
           <i className="fab fa-linkedin"></i>
           <div className="contact-info">
             <strong>LinkedIn</strong>
-            <span>@abhishekganvir</span>
+            <span>sharma-tarun</span>
           </div>
         </a>
 
         <a
           className="contact-link"
-          href="https://www.instagram.com/alright.abhi"
+          href="https://www.instagram.com/tarun._.saraswat/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <i className="fab fa-instagram"></i>
           <div className="contact-info">
             <strong>Instagram</strong>
-            <span>@alright.abhi</span>
+            <span>@Tarun._.Saraswat</span>
           </div>
         </a>
 
