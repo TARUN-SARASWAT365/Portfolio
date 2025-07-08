@@ -1,10 +1,9 @@
-// Contact.jsx
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import "./Contact.css"; // Ensure you have this CSS
+import "./Contact.css";
 
-// ✅ Optional: Initialize EmailJS here (you can also just pass public key in sendForm)
-emailjs.init("xq3Ejav17S-jlyT9A"); // Your actual Public Key
+// ✅ Initialize EmailJS with your public key
+emailjs.init("xq3Ejav17S-jlyT9A");
 
 const Contact = () => {
   const form = useRef();
@@ -14,10 +13,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_1s6bbzb",      // ✅ Your actual EmailJS Service ID
-        "template_cwvcegc",     // ✅ Your actual Template ID
+        "service_1s6bbzb",      // ✅ Your EmailJS service ID
+        "template_cwvcegc",     // ✅ Your EmailJS template ID
         form.current,
-        "xq3Ejav17S-jlyT9A"     // ✅ Your actual Public Key
+        "xq3Ejav17S-jlyT9A"     // ✅ Your EmailJS public key
       )
       .then(
         () => {
@@ -41,7 +40,7 @@ const Contact = () => {
 
         <a
           className="contact-link"
-          href="www.linkedin.com/in/sharma-tarun-80a833344/"
+          href="https://www.linkedin.com/in/sharma-tarun-80a833344/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -61,7 +60,7 @@ const Contact = () => {
           <i className="fab fa-instagram"></i>
           <div className="contact-info">
             <strong>Instagram</strong>
-            <span>@Tarun._.Saraswat</span>
+            <span>@tarun._.saraswat</span>
           </div>
         </a>
 
