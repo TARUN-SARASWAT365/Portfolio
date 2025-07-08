@@ -41,7 +41,7 @@ const Contact = () => {
 
         <a
           className="contact-link"
-          href="www.linkedin.com/in/sharma-tarun-80a833344"
+          href="www.linkedin.com/in/sharma-tarun-80a833344/"
           target="_blank"
           rel="noopener noreferrer"
         >
