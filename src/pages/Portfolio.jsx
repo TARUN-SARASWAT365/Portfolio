@@ -23,8 +23,8 @@ const projects = [
     title: "MY PORTFOLIO",
     description: "Its my portfolio website where you can find about me and my projects.",
     image: projectImg,
-    liveLink: "https://your-live-link.com",
-    detailsLink: "https://github.com/your-repo",
+    liveLink: "https://portfolio-ecru-psi-54.vercel.app",
+    detailsLink: "https://github.com/TARUN-SARASWAT365/Portfolio",
   },
   {
     title: "Blendy",
