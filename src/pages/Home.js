@@ -33,13 +33,13 @@ const Home = () => {
           </div>
 
           <div className="buttons">
-            <a href="/portfolio" className="btn">Projects ↗</a>
-            <a href="/contact" className="btn">Contact ✉</a>
+            <a href="#portfolio" className="btn">Projects ↗</a>
+            <a href="#contact" className="btn">Contact ✉</a>
           </div>
 
           <div className="social-icons">
             <a href="https://www.linkedin.com/in/sharma-tarun-80a833344/"><i className="fab fa-github"></i></a>
-            <a    href="https://github.com/TARUN-SARASWAT365"><i className="fab fa-linkedin"></i></a>
+            <a href="https://github.com/TARUN-SARASWAT365"><i className="fab fa-linkedin"></i></a>
             <a  href="https://www.instagram.com/tarun._.saraswat/"><i className="fab fa-instagram"></i></a>
           </div>
         </div>
