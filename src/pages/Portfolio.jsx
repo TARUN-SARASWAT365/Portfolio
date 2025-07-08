@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import "./Portfolio.css";
 import projectImg from "../assets/Screenshot (79).png";
-import projectImg1 from "../assets/Screenshot (90).png";
+import projectImg1 from "../assets/Screenshot (94).png";
 
 const techStack = [
   { name: "HTML", icon: "fa-html5", color: "#e34c26" },
