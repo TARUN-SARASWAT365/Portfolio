@@ -1,7 +1,10 @@
 // Contact.jsx
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import "./Contact.css"; // Make sure to link this
+import "./Contact.css"; // Ensure you have this CSS
+
+// ✅ Optional: Initialize EmailJS here (you can also just pass public key in sendForm)
+emailjs.init("xq3Ejav17S-jlyT9A"); // Your actual Public Key
 
 const Contact = () => {
   const form = useRef();
@@ -11,19 +14,19 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'service_1s6bbzb',    // Replace this
-        'template_cwvcegc',   // Replace this
+        "service_1s6bbzb",      // ✅ Your actual EmailJS Service ID
+        "template_cwvcegc",     // ✅ Your actual Template ID
         form.current,
-        'xq3Ejav17S-jlyT9A'     // Replace this
+        "xq3Ejav17S-jlyT9A"     // ✅ Your actual Public Key
       )
       .then(
         () => {
-          alert("Message sent successfully!");
+          alert("✅ Message sent successfully!");
           form.current.reset();
         },
         (error) => {
-          console.error(error);
-          alert("Failed to send message");
+          console.error("❌ Email sending error:", error);
+          alert("❌ Failed to send message. Please try again later.");
         }
       );
   };
@@ -41,12 +44,11 @@ const Contact = () => {
           href="https://www.linkedin.com/in/abhishekganvir"
           target="_blank"
           rel="noopener noreferrer"
-          id="linkedin"
         >
           <i className="fab fa-linkedin"></i>
           <div className="contact-info">
-            <strong>Let's Connect</strong>
-            <span>on LinkedIn</span>
+            <strong>LinkedIn</strong>
+            <span>@abhishekganvir</span>
           </div>
         </a>
 
@@ -55,7 +57,6 @@ const Contact = () => {
           href="https://www.instagram.com/alright.abhi"
           target="_blank"
           rel="noopener noreferrer"
-          id="instagram"
         >
           <i className="fab fa-instagram"></i>
           <div className="contact-info">
@@ -69,7 +70,6 @@ const Contact = () => {
           href="https://github.com/AbhishekGanvir"
           target="_blank"
           rel="noopener noreferrer"
-          id="github"
         >
           <i className="fab fa-github"></i>
           <div className="contact-info">
